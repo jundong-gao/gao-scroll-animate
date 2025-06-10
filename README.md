@@ -9,11 +9,11 @@ npm install gao-scroll-animate
 ```javascript
 import { createApp } from 'vue'
 import App from './App.vue'
-import GaoScrollAnimate from 'gao-scroll-animate'
-import 'gao-scroll-animate/lib/gao-scroll-animate.css'
+import animateScroll from 'gao-scroll-animate'
+import 'gao-scroll-animate/lib/index.css'
 
 const app = createApp(App)
-app.use(GaoScrollAnimate)
+app.use(animateScroll)
 app.mount('#app')
 
 ```

@@ -111,10 +111,10 @@ declare module '@vue/runtime-dom' {
     /**
      * 动画类名 animate__fadeIn
      */
-    'data-animate': typeof animateList[number] | (string & {})
+    'data-animate'?: typeof animateList[number] | (string & {})
     /**
      * 动画持续时长 .5s
      */
-    'data-duration': string 
+    'data-duration'?: string 
   }
 }
